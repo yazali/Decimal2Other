@@ -1,0 +1,71 @@
+[ 1448426390.821280]: IMSettings-Daemon[2917]: INFO: Starting imsettings-daemon...
+[ 1448426390.821397]: IMSettings-Daemon[2917]: INFO:   [HOME=/home/ravikumar/.config/imsettings]
+[ 1448426390.821427]: IMSettings-Daemon[2917]: INFO:   [XINPUTRCDIR=/etc/X11/xinit/]
+[ 1448426390.821442]: IMSettings-Daemon[2917]: INFO:   [XINPUTDIR=/etc/X11/xinit/xinput.d/]
+
+[ 1448426390.821455]: IMSettings-Daemon[2917]: INFO:   [MODULEDIR=/usr/lib64/imsettings]
+
+[ 1448426390.821470]: IMSettings-Daemon[2917]: INFO:   [MODULES=gsettings, qt]
+
+
+[ 1448426390.823035]: IMSettings-Qt backend[2917]: WARNING **: Unable to read the Qt config file: No such file or directory
+
+[ 1448426390.924470]: IMSettings-Qt backend[2917]: WARNING **: Unable to read the Qt config file: No such file or directory
+
+[ 1448426390.934622]: IMSettings-Qt backend[2917]: WARNING **: Unable to read the Qt config file: No such file or directory
+
+[ 1448426390.955288]: IMSettings-Qt backend[2917]: WARNING **: Unable to read the Qt config file: No such file or directory
+
+[ 1448426390.966962]: IMSettings-Qt backend[2917]: WARNING **: Unable to read the Qt config file: No such file or directory
+
+[ 1448426390.973696]: IMSettings-Qt backend[2917]: WARNING **: Unable to read the Qt config file: No such file or directory
+imsettings information
+==========================
+XINPUTRC: /etc/X11/xinit/xinput.d//none.conf
+	  File: ‘/etc/X11/xinit/xinput.d//none.conf’
+	  Size: 110       	Blocks: 8          IO Block: 4096   regular file
+	Device: fd00h/64768d	Inode: 70396744    Links: 1
+	Access: (0644/-rw-r--r--)  Uid: (    0/    root)   Gid: (    0/    root)
+	Context: system_u:object_r:bin_t:s0
+	Access: 2015-11-25 10:09:50.682497044 +0530
+	Modify: 2014-06-10 13:22:06.000000000 +0530
+	Change: 2015-11-23 21:55:44.899020063 +0530
+	 Birth: -
+Is DBus enabled: yes
+Is imsettings enabled: yes
+Is GTK+ supported: 
+[ 1448426391.005124]: IMSettings-Qt backend[2917]: WARNING **: Unable to read the Qt config file: No such file or directory
+
+[ 1448426391.012305]: IMSettings-Qt backend[2917]: WARNING **: Unable to read the Qt config file: No such file or directory
+
+[ 1448426391.018753]: IMSettings-Qt backend[2917]: WARNING **: Unable to read the Qt config file: No such file or directory
+
+[ 1448426391.027017]: IMSettings-Qt backend[2917]: WARNING **: Unable to read the Qt config file: No such file or directory
+yes
+Is Qt supported: 
+[ 1448426391.035592]: IMSettings-Qt backend[2917]: WARNING **: Unable to read the Qt config file: No such file or directory
+
+[ 1448426391.042727]: IMSettings-Qt backend[2917]: WARNING **: Unable to read the Qt config file: No such file or directory
+yes
+DESKTOP: gnome-classic
+GUESS_DESKTOP: $GDMSESSION
+DISABLE_IMSETTINGS: 
+IMSETTINGS_DISABLE_DESKTOP_CHECK: 
+DBUS_SESSION_BUS_ADDRESS: unix:abstract=/tmp/dbus-LEmGiaQNog,guid=0c531128c23ce857d576e31956553b96
+GTK_IM_MODULE: 
+QT_IM_MODULE: xim
+XMODIFIERS: @im=none
+IMSETTINGS_MODULE: none
+IMSETTINGS_INTEGRATE_DESKTOP: yes
+
+
+[ 1448426396.596152]: IMSettings-Qt backend[2917]: WARNING **: Unable to read the Qt config file: No such file or directory
+[ 1448426397.262980]: IMSettings-Daemon[2917]: INFO: Attempting to switch IM to none [lang=en_US.utf8, update=false]
+org.gnome.settings-daemon.plugins.keyboard.active is true. imsettings is going to be disabled.
+
+[ 1448426398.138446]: IMSettings-Daemon[2917]: WARNING **: Current desktop isn't targeted by IMSettings.
+
+[ 1448426398.140359]: GLib-GIO[2917]: CRITICAL **: g_dbus_method_invocation_return_value_internal: assertion '(parameters == NULL) || g_variant_is_of_type (parameters, G_VARIANT_TYPE_TUPLE)' failed
+[ 1448426398.324500]: IMSettings-Daemon[2917]: INFO: Unloading imesttings module: qt
+[ 1448426398.324700]: IMSettings-Daemon[2917]: INFO: Unloading imesttings module: gsettings
+[ 1448426398.324790]: IMSettings-Daemon[2917]: INFO: imsettings-daemon is shut down.
